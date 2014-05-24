@@ -1,0 +1,9 @@
+GB_USER=gitbucket
+GB_GROUP=gitbucket
+GB_HOME=/var/lib/gitbucket
+GB_LOG=/var/log/gitbucket
+GB_WAR=/opt/gitbucket/gitbucket.war
+GB_PORT=8080
+JAVA_OPTS="-Djava.io.tmpdir=/var/tmp"
+GB_OPTS="--port=${GB_PORT} --gitbucket.home=${GB_HOME}"
+
